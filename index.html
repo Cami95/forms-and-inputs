@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="creative.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Playwrite+NZ+Basic:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <title>Forms and Inputs</title>
   </head>
   <body>
@@ -12,15 +18,16 @@
     <p>Make search bars🍫, Drop down menus🍽️, and so much mmore!</p>
 
     <main>
-      <form class="search-bar" action="">
+      <form class="search-bar">
         <input
           class="instructions"
           type="search"
           placeholder="Search this page"
         />
+        <input class="search-button" type="submit" value="Search this!" />
       </form>
 
-      <form action="">
+      <form class="name-form">
         <label for=""> What is your first and last name? </label>
         <input type="text" placeholder="Enter name" required id="full-name" />
 
