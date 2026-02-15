@@ -15,5 +15,10 @@ p{
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
     
+}
+
+.instructions{
+    padding: 16px;
 }
