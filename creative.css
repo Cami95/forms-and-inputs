@@ -10,6 +10,19 @@ h1{
 
 p{
     text-align: center;
+    color: white;
+}
+
+button{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+    
 }
 
 .search-bar{
